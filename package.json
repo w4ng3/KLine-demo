@@ -13,7 +13,9 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
+    "@klinecharts/pro": "^0.1.1",
     "@vueuse/core": "^10.9.0",
+    "klinecharts": "^9.8.10",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },

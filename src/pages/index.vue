@@ -41,6 +41,21 @@ function go() {
       >
         Go
       </button>
+      <button
+        class="m-3 text-sm btn"
+        @click="() => router.push(`/kl/one`)"
+      >
+        K-Line-one
+      </button>
+      <button
+        class="m-3 text-sm btn"
+        @click="() => router.push(`/kl/pro`)"
+      >
+        K-Line-pro
+      </button>
     </div>
   </div>
 </template>
+
+<style>
+</style>
