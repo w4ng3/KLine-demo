@@ -11,6 +11,18 @@ import { dispose, init } from 'klinecharts'
 
 onMounted(() => {
   const chart = init('chart')
+  // chart.setStyles({
+  //   candle: { type: 'area', area: {
+  //     smooth: true,
+  //     backgroundColor: [{
+  //       offset: 0,
+  //       color: 'rgba(33, 150, 243, 0.01)',
+  //     }, {
+  //       offset: 1,
+  //       color: 'rgba(33, 150, 243, 0.2)',
+  //     }],
+  //   } },
+  // })
   chart.createIndicator('VOL')
   chart.applyNewData([
     { close: 4976.16, high: 4977.99, low: 4970.12, open: 4972.89, timestamp: 1587660000000, volume: 204 },

@@ -34,28 +34,25 @@ function go() {
     />
 
     <div>
-      <button
-        class="m-3 text-sm btn"
-        :disabled="!name"
-        @click="go"
-      >
+      <button class="m-3 text-sm btn" :disabled="!name" @click="go">
         Go
       </button>
-      <button
-        class="m-3 text-sm btn"
-        @click="() => router.push(`/kl/one`)"
-      >
+      <button class="m-3 text-sm btn" @click="() => router.push('/kl/one')">
         K-Line-one
       </button>
-      <button
-        class="m-3 text-sm btn"
-        @click="() => router.push(`/kl/pro`)"
-      >
+      <button class="m-3 text-sm btn" @click="() => router.push('/kl/pro')">
         K-Line-pro
       </button>
     </div>
   </div>
+  <div>
+    <button class="m-3 text-sm btn" @click="() => router.push('/ec/SearchTrends')">
+      搜索趋势
+    </button>
+    <button class="m-3 text-sm btn" @click="() => router.push('/ec/Lines')">
+      Lines
+    </button>
+  </div>
 </template>
 
-<style>
-</style>
+<style></style>

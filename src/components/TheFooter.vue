@@ -7,7 +7,7 @@ const router = useRouter()
     <button icon-btn @click="toggleDark()">
       <div i-carbon-sun dark:i-carbon-moon />
     </button>
-    <button @click="() => router.back()">
+    <button @click="router.back()">
       <div i-carbon-logo-github />
     </button>
 
